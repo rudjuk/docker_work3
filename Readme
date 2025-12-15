@@ -1,0 +1,8 @@
+# Тег для реєстру
+docker tag simple-app:test your-username/simple-app:latest
+
+# Логін
+docker login
+
+# Push
+docker push your-username/simple-app:latest
